@@ -8,30 +8,32 @@ Users can input student details such as first name, last name, and marks for mul
 
 All records are saved in a text file (studentdata.txt), ensuring that data is preserved even after the program is closed.
 
-✨ Features
-➕ Add student marks and automatically generate grades
-💾 Store data using file handling (fstream)
-📄 Display all student records in a formatted table
-🔍 Search student by ID or name
-📚 Pagination for large datasets
-✅ Input validation (marks must be between 0–100)
-🛠️ Technologies Used
-C++
-File Handling (ifstream, ofstream)
-Structures (struct)
-Arrays
-▶️ How to Run
+## ✨ Features
+- ➕ Add student marks and automatically generate grades
+- 💾 Store data using file handling (fstream)
+- 📄 Display all student records in a formatted table
+- 🔍 Search student by ID or name
+- 📚 Pagination for large datasets
+- ✅ Input validation (marks must be between 0–100)
+
+## 🛠️ Technologies Used
+- C++
+- File Handling (ifstream, ofstream)
+- Structures (struct)
+- Arrays
+
+## ▶️ How to Run
 
 Clone this repository:
 
-git clone https://github.com/your-username/student-mark-system.git
+git clone https://github.com/JiaPoh1/Personal-Budget-Management-and-Expense-Analysis-System-Sem-1.git
 Open the project in your C++ compiler (e.g., Visual Studio / Code::Blocks)
 
 Compile and run the program:
 
 g++ main.cpp -o program
 ./program
-🖥️ Sample Output
+### 🖥️ Sample Output
 ========================================
     STUDENT MARK SYSTEM
 
@@ -43,20 +45,25 @@ g++ main.cpp -o program
 Example:
 
 Please enter your name (first name, last name): John Doe
+
 Please enter your marks for subject HCI : 80
+
 Please enter your marks for subject OSS : 65
 ...
-📁 File Structure
+
+## 📁 File Structure
+```
 📦 Student-Mark-System
- ┣ 📄 main.cpp
- ┣ 📄 studentdata.txt
- ┗ 📄 README.md
-⚠️ Notes
-Ensure studentdata.txt exists in the same directory as the program
-The program runs in the console (no GUI)
-Works best on Windows (uses system("cls") for screen clearing)
-🚀 Future Improvements
-Add GUI (e.g., using Qt or C#)
-Improve search functionality (partial match, case-insensitive)
-Use database instead of text file
-Add edit/delete student records
+├── main.cpp
+├── studentdata.txt
+└── README.md
+ ```
+## ⚠️ Notes
+- Ensure studentdata.txt exists in the same directory as the program
+- The program runs in the console (no GUI)
+- Works best on Windows (uses system("cls") for screen clearing)
+## 🚀 Future Improvements
+- Add GUI (e.g., using Qt or C#)
+- Improve search functionality (partial match, case-insensitive)
+- Use database instead of text file
+- Add edit/delete student records

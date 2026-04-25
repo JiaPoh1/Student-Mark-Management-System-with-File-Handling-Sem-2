@@ -1,4 +1,4 @@
-📊 Student Mark Management System (C++)
+# 📊 Student Mark Management System (C++)
 
 📌 Description
 
@@ -25,14 +25,15 @@ All records are saved in a text file (studentdata.txt), ensuring that data is pr
 ## ▶️ How to Run
 
 Clone this repository:
-
-git clone https://github.com/JiaPoh1/Personal-Budget-Management-and-Expense-Analysis-System-Sem-1.git
+```
+git clone https://github.com/JiaPoh1/Student-Mark-Management-System-with-File-Handling-Sem-2.git
 Open the project in your C++ compiler (e.g., Visual Studio / Code::Blocks)
 
 Compile and run the program:
 
 g++ main.cpp -o program
 ./program
+```
 ### 🖥️ Sample Output
 ========================================
     STUDENT MARK SYSTEM

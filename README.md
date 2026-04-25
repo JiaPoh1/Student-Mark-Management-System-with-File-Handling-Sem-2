@@ -34,7 +34,7 @@ Compile and run the program:
 g++ main.cpp -o program
 ./program
 ```
-### 🖥️ Sample Output
+## 🖥️ Sample Output
 ========================================
     STUDENT MARK SYSTEM
 

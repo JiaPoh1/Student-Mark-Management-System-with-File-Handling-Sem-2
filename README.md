@@ -63,8 +63,3 @@ Please enter your marks for subject OSS : 65
 - Ensure studentdata.txt exists in the same directory as the program
 - The program runs in the console (no GUI)
 - Works best on Windows (uses system("cls") for screen clearing)
-## 🚀 Future Improvements
-- Add GUI (e.g., using Qt or C#)
-- Improve search functionality (partial match, case-insensitive)
-- Use database instead of text file
-- Add edit/delete student records

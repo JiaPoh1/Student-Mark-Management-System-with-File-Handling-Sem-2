@@ -13,7 +13,6 @@ All records are saved in a text file (studentdata.txt), ensuring that data is pr
 - 💾 Store data using file handling (fstream)
 - 📄 Display all student records in a formatted table
 - 🔍 Search student by ID or name
-- 📚 Pagination for large datasets
 - ✅ Input validation (marks must be between 0–100)
 
 ## 🛠️ Technologies Used

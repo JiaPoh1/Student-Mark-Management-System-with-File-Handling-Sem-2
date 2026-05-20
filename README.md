@@ -42,13 +42,75 @@ g++ main.cpp -o program
 3. Search Record
 4. Exit
 
-Example:
+Example (Add Mark):
+```text
+Please enter your name (first name, last name): Alex Tann
 
-Please enter your name (first name, last name): John Doe
+Please enter your marks for subject HCI : 55
 
-Please enter your marks for subject HCI : 80
+Please enter your marks for subject OSS : 62
 
-Please enter your marks for subject OSS : 65
+Please enter your marks for subject CAL : 75
+
+Please enter your marks for subject PRO : 86
+
+Please enter your marks for subject SAD : 90
+
+Type any letter and press enter to continue. y
+```
+
+Example (Display Record):
+```text
+ID      NAME            HCI     OSS     CAL     PRO     SAD
+
+0       Acap Mochi      50(C)   60(B)   30(E)   70(B)   80(A)
+
+1       Jien Hue        60(B)   70(B)   80(A)   90(A)   20(E)
+
+2       Drew Miller     31(E)   73(B)   20(E)   59(C)   40(D)
+
+3       Jamie Brown     81(A)   74(B)   92(A)   70(B)   52(C)
+
+4       Morgan Davis    50(C)   45(D)   40(D)   27(E)   24(E)
+
+5       Taylor Johnson  98(A)   20(E)   46(D)   80(A)   27(E)
+
+6       Casey Jones     93(A)   46(D)   47(C)   22(E)   66(B)
+
+7       Taylor Clark    73(B)   72(B)   71(B)   33(E)   89(A)
+
+8       Jamie Miller    36(E)   27(E)   21(E)   78(A)   87(A)
+
+9       Quinn Williams  89(A)   31(E)   73(B)   97(A)   42(D)
+
+10      Alex Miller     92(A)   34(E)   47(C)   22(E)   22(E)
+```
+
+Example (Search Record):
+```text
+Enter the ID/NAME of the person you want to search: 3
+
+ID      NAME            HCI     OSS     CAL     PRO     SAD
+
+3       Jamie Brown     81(A)   74(B)   92(A)   70(B)   52(C)
+
+Type any letter and press enter to continue. y
+```
+```text
+Enter the ID/NAME of the person you want to search: Riley
+
+ID      NAME            HCI     OSS     CAL     PRO     SAD
+
+17      Riley Johnson   72(B)   71(B)   25(E)   20(E)   60(B)
+
+35      Riley Williams  56(C)   91(A)   73(B)   29(E)   53(C)
+
+51      Riley Lee       87(A)   20(E)   59(C)   54(C)   73(B)
+
+67      Riley Clark     74(B)   20(E)   35(E)   82(A)   72(B)
+```
+
+
 ...
 
 ## 📁 File Structure
@@ -61,4 +123,3 @@ Please enter your marks for subject OSS : 65
 ## ⚠️ Notes
 - Ensure studentdata.txt exists in the same directory as the program
 - The program runs in the console (no GUI)
-- Works best on Windows (uses system("cls") for screen clearing)
